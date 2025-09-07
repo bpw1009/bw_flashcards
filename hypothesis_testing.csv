@@ -1,0 +1,51 @@
+Question,Answer
+What is a null hypothesis (H₀)?,A statement of no effect or no difference that we attempt to reject with evidence
+What is an alternative hypothesis (H₁ or Hₐ)?,The statement we want to prove that contradicts the null hypothesis
+What is a Type I error?,Rejecting a true null hypothesis (false positive)
+What is a Type II error?,Failing to reject a false null hypothesis (false negative)
+What is the significance level (α)?,The probability of making a Type I error (commonly 0.05 or 0.01)
+What is statistical power?,The probability of correctly rejecting a false null hypothesis (1 - β)
+What is a p-value?,The probability of observing results at least as extreme as ours if H₀ is true
+When do we reject the null hypothesis?,When the p-value is less than the significance level (p < α)
+What is a test statistic?,A standardized value calculated from sample data used to test hypotheses
+What is a one-tailed test?,A test where the alternative hypothesis specifies a direction (greater than or less than)
+What is a two-tailed test?,A test where the alternative hypothesis doesn't specify a direction (not equal to)
+What is the critical value?,The boundary value that separates the rejection region from the non-rejection region
+What is a confidence interval?,A range of values that likely contains the true population parameter
+How does a 95% confidence interval relate to α = 0.05?,If the null value is outside the 95% CI then we reject H₀ at α = 0.05
+What is the difference between z-test and t-test?,Z-test uses known population variance; t-test uses sample variance
+When do we use a t-test instead of a z-test?,When population standard deviation is unknown or sample size is small (n < 30)
+What are the assumptions for a one-sample t-test?,Data is continuous normally distributed and observations are independent
+What is a paired t-test used for?,Comparing means of the same subjects before and after treatment
+What is an independent samples t-test?,A test comparing means between two separate groups
+What does 'fail to reject H₀' mean?,We don't have enough evidence to conclude the alternative is true
+Why don't we say 'accept the null hypothesis'?,Because absence of evidence is not evidence of absence
+What is the relationship between Type I and Type II errors?,As Type I error decreases Type II error increases (for fixed sample size)
+What is effect size?,A measure of the magnitude of difference independent of sample size
+What is Cohen's d?,A standardized effect size measure: difference in means divided by pooled SD
+What is a chi-square test used for?,Testing relationships between categorical variables
+What are degrees of freedom in a t-test?,The number of independent values that can vary (usually n-1 for one sample)
+What is the Central Limit Theorem's role in hypothesis testing?,It allows us to assume normality of sample means for large samples
+What happens to the p-value as sample size increases?,It tends to decrease for a fixed effect size making rejection more likely
+What is multiple testing correction?,Adjusting significance level when conducting multiple hypothesis tests
+What is the Bonferroni correction?,Dividing α by the number of tests to control family-wise error rate
+What is ANOVA used for?,Testing whether means differ among three or more groups
+What is the null hypothesis in ANOVA?,All group means are equal (μ₁ = μ₂ = μ₃ = ... = μₖ)
+What is a non-parametric test?,A test that doesn't assume a specific distribution for the data
+When would you use a Mann-Whitney U test?,Non-parametric alternative to independent t-test for non-normal data
+What is the Wilcoxon signed-rank test?,Non-parametric alternative to paired t-test
+What is statistical significance vs practical significance?,Statistical: p < α; Practical: the effect is large enough to matter
+What is the standard error?,The standard deviation of the sampling distribution of a statistic
+How do you calculate the z-score for hypothesis testing?,z = (x̄ - μ₀) / (σ/√n)
+How do you calculate the t-statistic?,t = (x̄ - μ₀) / (s/√n)
+What is the rejection region?,The range of test statistic values that lead to rejecting H₀
+For α = 0.05 in a two-tailed z-test what are the critical values?,±1.96
+For α = 0.05 in a one-tailed z-test what is the critical value?,1.645 (right tail) or -1.645 (left tail)
+What assumption do we make about variance in a two-sample t-test?,Either equal variances (pooled) or unequal variances (Welch's)
+What is heteroscedasticity?,Unequal variance across groups or values of predictor
+What is the null hypothesis for a correlation test?,The population correlation ρ = 0
+What does p = 0.03 mean in hypothesis testing?,There's a 3% chance of seeing results this extreme if H₀ is true
+Can you prove the null hypothesis is true?,No you can only fail to find evidence against it
+What factors affect statistical power?,Effect size sample size significance level and variance
+Why is a larger sample size better for hypothesis testing?,It increases power and reduces standard error
+What's the difference between one-way and two-way ANOVA?,One-way tests one factor; two-way tests two factors and their interaction
